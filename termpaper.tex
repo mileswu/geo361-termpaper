@@ -86,11 +86,11 @@ No longer is there a peak at forty thousand years, but instead there is a broad 
 The cycles are actually either approximately eighty thousand years or one hundred thousand years and so the two peaks of the spectral analysis plot have just merged \cite{philander}.
 Because the cycles are multiples of the obliquity cycle (forty thousand years) both Huyberr and Philander and Barreiro agree that the glaciation cycles are still controlled by the obliquity \cite{hyubers}\cite{philander}.
 There are other possible explanations stemming from eccentricity or precessions, but Huybers points out that eccentricity does not have a big enough effect to cause the glaciation cycles and precession forcing is anti-symmetric between the hemispheres but the glacial cycles are symmetric \cite{hyubers}.
-Attributing the cycles to obliquity seems reasonable and the reasons that Huybers puts forward for why it can't be other phenomenon seem plausible too. 
+Attributing the cycles to obliquity seems reasonable and the reasons that Huybers puts forward for why it can't be other phenomenon seem plausible too.
 
 %statistical test?
 While it seems pretty conclusive for the first region (3 Ma to 1.2 Ma), it is not quite so obvious and clear-cut for the second region (1.2 Ma to the present); some kind of quantitative method is needed to justify the argument.
-As a result, Huybers performs a statistical test as evidence for the validity of his explanation\cite{huybers}. 
+As a result, Huybers performs a statistical test as evidence for the validity of his explanation\cite{huybers}.
 His formal hypothesis is that deglaciations are triggered at a specific point in the phase of the obliquity cycle, and conversely his null hypothesis is that they are independent of the phase of obliquity and therefore should be uniformly distributed with respect to obliquity phase.
 Deglaciation events are identified from the $\delta^{18}$O record as large changes and thirty-six events are found: twenty from the first period and sixteen from the second.
 The results from this statistical test are quite conclusive as Hyubers finds that it is significant at the $99\%$ level for both the early and the late period.
@@ -115,31 +115,74 @@ Here it is simpler that there is just one unified explanation and theory for gla
 One mystery still remains: the glacial cycles in the late Pleistocene period do not match up with the obliquity cycles one-to-one and are some multiple of the forty-one thousand period.
 Although we have shown that the deglaciation occurs at the same point in the obliquity cycle, we have not explained why it does not happen every cycle and usually one or two cycles are skipped in the late Pleistocene period.
 
+%hyubers model
 Hyubers offers a simple model to explain this phenomenon \cite{huybers}.
 In this model, the global ice volume increases linearly with time until a threshold limit is reached.
 When the threshold is reached an abrupt deglaciation occurs which resets the ice volume to the zero and it starts again.
 The threshold also has a linear trend, but it also further has an additional term for obliquity.
 Obliquity here is normalized to zero mean and has unit variance.
-
-This model seems like it could reproduce the cycle skipping and the deglaciation occurring at a certain point in the obliquity phase. 
-
+This model seems like it could reproduce the cycle skipping and the deglaciation occurring at a certain point in the obliquity phase, because the deglaciation threshold depends on the obliquity.
+This makes it most likely that deglaciation occurs when obliquity is minimal (or maximal if the coefficient for the obliquity term is negative), which is what we found in the data.
+The skipping occurs because it does not always reach the deglaciation threshold in one obliquity cycle.
 At first it seems dubious that deglaciation would be so abrupt and severe, removing all glaciers over only a mere ten thousand years, but Huybers provides evidence for this, saying that various sophisticated ice-sheet models have simulated this behavior \cite{huybers}.
+
+%comparison to data
+Hyubers claims that this simple model can reproduce the obliquity cycle skipping patterns that we see in the $\delta^{18}$O record in the last two million years to a large degree of accuracy \cite{hyubers}.
+However, it seems premature to attempt to use such a simple model to explain an extremely complex, non-linear and intricate system.
+Although the model is plausibly justified, it is overly simplified (for example, constant linear growth and a guaranteed deglaciation to zero ice over exactly the same time every time) and could not possibly be expected to match the complex behavior of the data.
+Given enough free parameters, any model can be made to match experimental data.
+For example, a polynomial of degree $N$ can be made to go through $N$ points exactly with zero error, but this is a pointless exercise as it does not in any way imply that the polynomial is the correct equation.
+Philander and Barriero agree with us on this, saying that ``the purpose of these models is not the realistic simulation of observations, but exploration of different modes of climate variability'' \cite{philander}.
 
 %difference in model with philander
 Philander and Barreiro propose a model similar to Hyubers' but with a few differences \cite{philander}.
+The growth of the ice volume is now more complicated: instead of just being a simple constant linear growth, it also has an exponential growth term, a term relating to the cube of the ice volume and a superimposed obliquity oscillation that increases in amplitude with ice volume.
+These additional terms need to be justified or there is no point adding additional complication to a simpler model.
+The exponential growth term is attributed to a feedback loop that accelerates the cooling.
+The glaciers and their corresponding snow reflect sunlight, increasing the albedo and in turn lowering temperatures; the lowered temperatures then cause faster glaciation.
+The superimposed amplifying obliquity oscillations are said to be because the obliquity affects the amount of sunlight melting the snow on the glaciers in summer, modifying the albedo.
+The cubic term is attributed to a feedback associated with atmospheric carbon dioxide that only became significant around one million years ago.
+On the other hand, the threshold is slightly simpler as is constant plus obliquity, rather than linear.
+Once the threshold is reached the glaciers only ablate to one third of their previous size, not zero; this seems less extreme and more likely, though is still somewhat unjustified assumption.
 
-
+%philander works too.
+The model of Philander and Barreiro, in addition to the terms in the equation being justified by them, also seems a plausible candidate to explain the obliquity cycle skipping. 
+%one simplification
+%Changing $\beta$ from 0 to 30000 made no difference at all currently. Dwarfed by 6e7.
+%obliquity is in the growth, not the threshold
 
 %parameters of philander
+In many ways the model of Philander and Barreiro seems to be preferable and makes more sense than Hyubers' model. Although the glacier growth equation is more complex, each term is justified and seems very plausible; both accelerating growth due to albedo feedback and a term dealing with obliquity are an obvious inclusion and one that surely have an effect on glacial growth.
+The threshold equation being simpler is also a plus: Hyubers' threshold has a linear trend with respect to time that has no justification, but Philander and Barreiro do away with this.
+
+From playing around with the two models, it seems that the two models have one fundamentally different characteristic: the explanation behind the change from the early to late Pleistocene behavior (in early it does not skip any cycles, but in late it usually skips one or two).
+In Huybers' model it arises because the threshold increases with time and so for the late time periods it takes longer to for the ice to grow and reach the threshold, taking more cycles.
+This implies that in the future glacial cycles might take one hundred and sixty thousand years or even two hundred thousand years.
+In the model of Philander and Barreiro, the change in cycle period occurs mainly because of the cubic carbon dioxide term coming into play.
+Without that extremely rapid growth term it would take far too long for the ice to reach the threshold (based on their suggested parameters) and the cycles would be far too long.
+Their model suggests that this carbon dioxide term coming into effect was the cause of the transition from early to late Pleistocene.
+More research is warranted into the origin of this atmospheric carbon dioxide feedback and whether it can be such a huge growth term.
+Perhaps more accurate dating can be done to determine if the carbon dioxide came into play at exactly the same time that the glaciation cycles changed or whether it was only around the time and not the root cause.
 
 %chaotic
-
 While recreating the graph of ice volume from Philander and Barreiro's paper (Figure 3), we investigated how subtle changes in the input parameters of the model would change the glacial cycles.
-We found that even very tiny changes in the parameters caused huge changes an
+We found that even very tiny changes in the parameters caused huge changes, and past a certain point in the simulation it did not resemble the original graph at all.
+To show this we plotted the ice volume from 1.5 million years ago to present based off the parameters listed in Philander and Barreiro's paper, and then overplotted another graph showing the ice volume but using a slightly modified parameter.
+In Figure~\ref{alpha} we changed the constant term in the threshold equation (known as the maximum ice volume) by only a mere $1\%$.
+At first there are no discernible differences, as expected for such a small change, but the behavior begins to diverge at six hundred thousand years ago.
+Soon the behavior of the two curves are not alike at all and have become unrecognizable as once being near-identical.
+This highly 
+
+\begin{figure}
+  \centering
+  \include{alpha}
+  \caption{cap}
+  \label{alpha}
+\end{figure}
 
 %huybers not so chaotic
 
-\section{Conclusion} 
+\section{Conclusion}
 
 
 
